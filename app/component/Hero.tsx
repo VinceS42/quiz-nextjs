@@ -20,23 +20,6 @@ const Hero = (props: Props) => {
                             Clique ici quand tu es prêt !
                         </Link>
                     </div>
-                    <div className="flex flex-col gap-6">
-                        <h3 className="text-3xl font-bold tracking-tighter sm:text-2xl md:text-4xl lg:text-5xl/none ms-0 text-dark">
-                            Résultat :
-                        </h3>
-                        <p className="text-xltracking-tighter sm:text-2xl md:text-4xl lg:text-4xl/none ms-0 text-dark">
-                            Total Questions:{" "}
-                        </p>
-                        <p className="text-xl tracking-tighter sm:text-2xl md:text-4xl lg:text-4xl/none ms-0 text-dark">
-                            Total Score:
-                        </p>
-                        <p className="text-xl tracking-tighter sm:text-2xl md:text-4xl lg:text-4xl/none ms-0 text-dark">
-                            Correct Answers:{" "}
-                        </p>
-                        <p className="text-xl tracking-tighter sm:text-2xl md:text-4xl lg:text-4xl/none ms-0 text-dark">
-                            Wrong Answers:
-                        </p>
-                    </div>
                 </div>
             </div>
         </section>
