@@ -27,6 +27,7 @@ const videoQuestion = (props: Props) => {
                     Regarde attentitvement la vidéo suivante pour répondre aux
                     questions
                 </h2>
+                <p className="mt-2">(vidéo test n'aide pas forcément pour ce quizz)</p>
             </div>
             <div className="px-4 md:px-6 max-w-[1500px] mx-auto w-[50%]">
                 <div className="flex items-center justify-center">
