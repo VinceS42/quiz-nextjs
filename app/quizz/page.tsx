@@ -6,26 +6,8 @@ import { Button } from "@/components/ui/button";
 import ReactPlayer from "react-player";
 import Link from "next/link.js";
 
-type Props = {
-    index: number;
-    question: string;
-    options: string[];
-    option: string;
-    sourceVideo: string;
-    correctAnswer: string;
-    wrongAnswer: string;
-    selectedAnswer: boolean;
-    checkAnswer: boolean;
-    selectedAnswerIndex: number | null;
-    showResult: boolean;
-    result: {
-        correct: number;
-        wrong: number;
-        score: number;
-    };
-};
 
-const page = (props: Props) => {
+const page = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState(false);
     const [checkAnswer, setCheckAnswer] = useState(false);
